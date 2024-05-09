@@ -40,6 +40,9 @@ def SearchBinary(sorted_array, search):
 
 
 def main():
+    
+    print("Su array principal es:",array)
+    print("Su numero a buscar es:",search)
     search_result, sorted_array = SearchSecuential(array, search)
     print("Resultado de la búsqueda:", search_result)
     
