@@ -1,3 +1,5 @@
+array = [64, 25, 12, 22, 11]
+
 def selection_sort(array):
     n = len(array)
     for i in range(n):
@@ -13,6 +15,6 @@ def selection_sort(array):
     return array
 
 # Ejemplo de uso
-array = [64, 25, 12, 22, 11]
+
 sorted_arr = selection_sort(array)
 print("Arreglo ordenado de forma ascendente:", sorted_arr)
